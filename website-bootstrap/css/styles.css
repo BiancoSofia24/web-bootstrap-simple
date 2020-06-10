@@ -1,0 +1,41 @@
+body{
+    background-color: #222;
+    color: #fff;
+}
+
+.navbar{
+    border-bottom: #277aaa 3px solid;
+    opacity: .8;
+}
+
+#home-section{
+    background: url(../img/bg.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay{
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.home-inner{
+    padding-top: 200px;
+}
+
+@media (max-width: 992px){
+    #home-section{
+        min-height: 175vh;
+    }
+    .dark-overlay{
+        min-height: 175vh;
+    }
+    .home-inner{
+        padding-top: 100px;
+    }
+}
